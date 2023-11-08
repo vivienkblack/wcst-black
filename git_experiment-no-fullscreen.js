@@ -326,8 +326,8 @@ jsPsych.init({
   },
 
   on_finish: function () {
-    timeline.push(goodbye_block);
-    var qthis = this;
-    qthis.clickNextButton();
+  //  timeline.push(goodbye_block);
+  //  var qthis = this;
+  //  qthis.clickNextButton();
   },
 });
