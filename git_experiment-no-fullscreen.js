@@ -320,8 +320,6 @@ jsPsych.init({
   },
 
   on_finish: function () {
-    Qualtrics.SurveyEngine.setEmbeddedData("success", accuracy);
-    Qualtrics.SurveyEngine.setEmbeddedData("browser_events", rt);
-    jsPsych.data.get().localSave("csv", `WCST_subject_${subjectId}_output.csv`);
+    qthis.clickNextButton();
   },
 });
