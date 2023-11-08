@@ -216,7 +216,6 @@ timeline.push(goodbye_block);
 jsPsych.init({
   timeline: timeline,
   preload_images: preloadImages(),
-  timeline.push(goodbye_block),
   on_close: function () {
     //jsPsych.data
       //.get()
