@@ -205,6 +205,12 @@ for (let i = 1; i < 65; i++) {
 
 jsPsych.data.addProperties({ subject: subjectId });
 
+var goodbye_block = {
+  type: "html-keyboard-response",
+  stimulus: "goodbye to the task. Press any key to goodbye.",
+};
+timeline.push(goodbye_block);
+
 /*************** EXPERIMENT START AND DATA UPDATE ***************/
 
 jsPsych.init({
